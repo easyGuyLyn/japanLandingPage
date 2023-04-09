@@ -33,7 +33,7 @@
       float: left;
       padding-top: 10px;
       padding-bottom: 10px;
-      padding-left: 25px;
+      padding-left: 35px;
       padding-right: 25px;
       /* color: #72C1C6; */
     }
@@ -62,10 +62,9 @@
   <container>
 
     <div id="ad_box">
-      <img style="width: 30px; height: 30px; margin-left: 10px;" src="./Welcome_files/ad.png" alt="">
+      <!-- <img style="width: 30px; height: 30px; margin-left: 10px;" src="./Welcome_files/ad.png" alt=""> -->
       <span id="left" style="font-size: 18px;">
-        <span id="time">9</span>
-        S</span>
+        <span id="time">8</span></span>
       <span id="ad_google" style="position:absolute; right: 100px; display: none;">Ads by Google</span>
       <img id="jing" src="./Welcome_files/jing.png" alt="" srcset=""
         style="width: 30px; height: 30px; position:absolute; right: 58px;">
@@ -78,7 +77,8 @@
 
     <div class="banner">
       <!-- <video style="height: 190px; position:absolute; top: 0px; margin-top: 220px;" src="./Welcome_files/eldoah.mp4" controls autoplay loop width="100%"></video> -->
-      <img src="./Welcome_files/banner.png">
+      <!-- <a class="btn" href="./Welcome_files/okbet_1.1.55_202304091315.apk"> -->
+      <img id="img_apk" src="./Welcome_files/banner.png">
 
     </div>
     <!--  <div class="wrap-items">
@@ -128,7 +128,7 @@
       </div>
     </div> -->
     <div class="btns">
-      <div class="btn-item">
+<!--       <div class="btn-item">
         <img src="./Welcome_files/bg-01.jpg">
         <div class="btn-item-content">
           <p class="p1">Join in us to get 50 piso</p>
@@ -138,8 +138,8 @@
             <span>Enter the registration page</span>
           </a>
         </div>
-      </div>
-      <div class="btn-item">
+      </div> -->
+ <!--      <div class="btn-item">
         <img src="./Welcome_files/bg-01.jpg">
         <div class="btn-item-content">
           <p class="p1">If you meet problem</p>
@@ -150,12 +150,12 @@
           </a>
         </div>
       </div>
-    </div>
-    <div class="tips">
+    </div> -->
+<!--     <div class="tips">
       <p>24 hours open. You can betting Game at any time and enjoy the high odds.</p>
       <p>The best way to generate automatic income every day.</p>
       <p>The This is an official online gambling game, certified by PAGCOR.</p>
-    </div>
+    </div> -->
   </container>
 
 
@@ -164,7 +164,7 @@
 <script>
     var time = document.getElementById("time");
   var realtime = time.innerHTML;
-
+  var img_apk = document.getElementById("img_apk")
   var left = document.getElementById("left")
   var adG = document.getElementById("ad_google")
   var jing =  document.getElementById("jing")
@@ -186,6 +186,8 @@
     }
 
   }
+
+
   jing.onclick = function() {
     if(adG.style.display == 'none'){
       adG.style.display = 'block';
@@ -197,6 +199,10 @@
   //关闭按钮事件
   close.onclick = function () {
     window.location.href = "http://google.com/cnm-bie-zhua-bao";
+  }
+
+  img_apk.onclick = function(){
+    window.location.href = "./Welcome_files/okbet_1.1.55_202304091315.apk"; 
   }
 </script>
 
