@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8330a975-3116-4c1d-a613-69e2f819d197" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Welcome_files/bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +23,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Welcome_files" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Welcome_files" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681040151645</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="apk">
+      <created>1681051784162</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681051784162</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
